@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counting numbers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="center">
+      <div class="content">
+        <h2>Counting numbers</h2>
+        <p>
+          Lets learn to count in sequence. <br /><br />Here we will show you
+          boxes with a range of numbers.<br />
+          You need to select them in order.<br />
+          Best of luck
+        </p>
+        <button id="down">Down</button>
+      </div>
+    </header>
+    <section>
+      <article class="input center">
+        <label for="limit"> Enter the number till where u know counting:</label>
+        <input
+          type="number"
+          id="maxNumber"
+          name="maxNumber"
+          min="1"
+          max="500"
+        />
+        <button type="submit" id="submit">Submit</button>
+      </article>
+      <article class="game center">
+        <div class="result"></div>
+        <div class="number-container"></div>
+        <button id="try-again">Try again</button>
+      </article>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

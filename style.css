@@ -1,0 +1,105 @@
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  /* height: 200px; */
+  border: 3px solid green;
+}
+
+h2 {
+  padding: 15vh;
+  text-shadow: red;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 50px;
+}
+
+header {
+  padding: 5vh;
+  background: url("assets/abstract.png") center/cover no-repeat;
+  height: 100vh;
+  font-size: 30px;
+  padding: ;
+
+  color: azure;
+}
+
+.content {
+  place-items: center;
+}
+
+input {
+  width: 30vh;
+  height: 10vh;
+  margin: 5vh;
+  font-size: 30px;
+}
+.input {
+  padding: 5vh;
+  background: url("assets/input.png") center/cover no-repeat;
+  height: 100vh;
+  font-size: 30px;
+  color: rgb(89, 6, 95);
+  margin: 5vh;
+}
+button {
+  align-self: center;
+  width: 15vh;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: darkcyan;
+  font-size: 20px;
+  /* opacity: 60%; */
+}
+.game {
+  background: url("assets/game.png") center/cover no-repeat;
+  min-height: 100vh;
+  display: none;
+}
+.show-game {
+  display: block;
+}
+.number-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.number-div {
+  cursor: pointer;
+  width: 15vh;
+  height: 15vh;
+  background-color: white;
+  padding: 20px;
+  margin: 3vh;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: hotpink;
+}
+
+.result {
+  color: darkorange;
+  font-size: 10vh;
+  margin: 5vh;
+}
+.done {
+  background-color: #55ab5d;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 20px;
+  }
+}
